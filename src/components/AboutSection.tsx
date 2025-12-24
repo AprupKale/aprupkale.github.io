@@ -12,9 +12,9 @@ const AboutSection = () => {
         <div className="grid md:grid-cols-3 gap-12">
           <div className="md:col-span-2 space-y-6">
             <p className="text-muted-foreground leading-relaxed">
-              I am an Final Year Undergaduate Student in the Department of Computer Science at National University of Singapore. 
+              I am a Final Year Undergraduate Student in the Department of Computer Science at National University of Singapore. 
               My research currently focuses on algorithmic game theory, specifically fair division.
-              I am broadly interested in all aspects of theoretical computer science, as well as explainable and fair AI.
+              I am broadly interested in all aspects of theoretical Computer Science, as well as explainable and fair AI.
             </p>
             <p className="text-muted-foreground leading-relaxed">
               I am currently on the lookout for Research Assistant positions starting May 2026. 
