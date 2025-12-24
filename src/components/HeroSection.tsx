@@ -36,7 +36,7 @@ const HeroSection = () => {
               <div className="w-48 h-48 md:w-56 md:h-56 rounded-full bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center">
                 <div className="w-44 h-44 md:w-52 md:h-52 rounded-full bg-card border-4 border-background shadow-lg flex items-center justify-center overflow-hidden">
                   <img
-                    src="src\images\aprup-kale-2.jpeg"
+                    src="/images/aprup-kale-2.jpeg"
                     alt="Aprup Kale Image"
                     className="w-full object-contain"
                   />
