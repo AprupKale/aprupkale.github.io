@@ -18,7 +18,7 @@ const PublicationsSection = () => {
       <div className="container mx-auto px-6">
         <div className="flex items-center justify-between mb-8">
           <h2 className="font-serif text-3xl md:text-4xl font-semibold text-foreground">
-            Selected Publications
+            Publications and Preprints
           </h2>
           <Button
             asChild

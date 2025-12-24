@@ -51,6 +51,14 @@ const Header = () => {
             </li>
             <li>
               <button
+                onClick={() => scrollToSection("misc")}
+                className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
+              >
+                Misc
+              </button>
+            </li>
+            <li>
+              <button
                 onClick={() => scrollToSection("contact")}
                 className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
               >

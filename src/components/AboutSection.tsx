@@ -22,14 +22,36 @@ const AboutSection = () => {
             </p>
 
             <div className="flex flex-wrap gap-4 pt-4">
-              <Button variant="outline" className="gap-2">
-                <FileText className="h-4 w-4" />
-                Curriculum Vitae
-              </Button>
-              <Button variant="outline" className="gap-2">
-                <ExternalLink className="h-4 w-4" />
-                Transcript
-              </Button>
+              <a
+                  href="/docs/Aprup Kale - Resume.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                <Button variant="outline" className="gap-2">
+                  <FileText className="h-4 w-4" />
+                  Resume
+                </Button>
+              </a>
+              <a
+                  href="/docs/Aprup Kale - Curriculum Vitae.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                <Button variant="outline" className="gap-2">
+                  <FileText className="h-4 w-4" />
+                  Curriculum Vitae
+                </Button>
+              </a>
+              <a
+                  href="/docs/Aprup Kale - Transcript.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                <Button variant="outline" className="gap-2">
+                  <FileText className="h-4 w-4" />
+                  Transcript
+                </Button>
+              </a>
             </div>
           </div>
 
