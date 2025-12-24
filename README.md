@@ -6,7 +6,7 @@ The webpage is intended for academic collaborators, recruiters, and others inter
 
 ## Live Website
 
-**URL:** https://aprupalekale.github.io  
+**URL:** https://aprupkale.github.io  
 
 ## Overview
 
