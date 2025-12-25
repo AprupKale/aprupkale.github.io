@@ -12,7 +12,7 @@ const courses = [
     code: "CS2109S",
     title: "Introduction to AI and Machine Learning",
     term: "AY2024/25 and AY2025/26",
-    description: "Introduction to core concepts and techniques in artificial intelligence and machine learning.",
+    description: "Core ideas and techniques in artificial intelligence and machine learning.",
   },
   {
     code: "CS2040S",
@@ -24,7 +24,7 @@ const courses = [
     code: "CS2030S",
     title: "Programming Methodology II",
     term: "AY2023/24",
-    description: "Introduction to object oriented programming concepts and techniques.",
+    description: "Continuation of programming concepts with a focus on object-oriented programming.",
   },
   {
     code: "CS2040S",
@@ -42,7 +42,7 @@ const TeachingSection = () => {
           Teaching
         </h2>
         <p className="text-muted-foreground mb-12 max-w-2xl">
-          I have taught (and continue teaching) courses in introductory Computer Science, Algorithm Design, and Machine Learning and Artificial Intelligence.
+          I have taught (and continue teaching) courses in introductory Computer Science, Algorithm Design, and Machine Learning and Artificial Intelligence as an undergraduate part-time TA.
         </p>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">

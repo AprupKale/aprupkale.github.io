@@ -12,7 +12,7 @@ const ContactSection = () => {
         <div className="grid md:grid-cols-2 gap-12">
           <div className="space-y-6">
             <p className="text-muted-foreground leading-relaxed">
-              I'm always happy to discuss research collaborations or potential job opportunities. 
+              I am always happy to discuss research collaborations, potential job opportunities, or interesting side projects.
               The best way to reach me is via email.
             </p>
 

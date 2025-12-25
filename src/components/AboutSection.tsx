@@ -17,7 +17,7 @@ const AboutSection = () => {
               I am broadly interested in all aspects of theoretical computer science, as well as explainable and fair AI.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              I am currently on the lookout for Research Assistant positions starting May 2026. 
+              I am currently on the lookout for full-time positions starting May 2026.
               {/* I will also soon be applying for graduate school to pursue a PhD in Computer Science. */}
             </p>
 
