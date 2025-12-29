@@ -27,7 +27,7 @@ const PublicationsSection = () => {
             className="gap-2"
           >
             <a
-              href="https://scholar.google.com/citations?user="
+              href="https://scholar.google.com/citations?user=w5ZBKlMAAAAJ&hl=en"
               target="_blank"
               rel="noopener noreferrer"
             >
