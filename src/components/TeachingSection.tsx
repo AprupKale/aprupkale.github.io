@@ -36,7 +36,7 @@ const courses = [
 
 const TeachingSection = () => {
   return (
-    <section id="teaching" className="py-20">
+    <section id="teaching" className="py-20 bg-card">
       <div className="container mx-auto px-6">
         <h2 className="font-serif text-3xl md:text-4xl font-semibold text-foreground mb-4">
           Teaching
