@@ -1,21 +1,25 @@
 import { Code, ExternalLink, FileText } from "lucide-react";
+import type { ReactNode } from "react";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 
 interface Project {
   title: string;
-  description: string;
+  description: ReactNode;
   tech: string;
   year?: number;
   url?: string;
-  report?: string; // filename located under public/docs
-}
+  report?: string;
+} 
 
 const projects: Project[] = [
     {
         title: "Efficient Extractive Question Answering via Heterogeneous Transformer Ensembles",
-        description:
-        "Built and evaluated an ensemble QA system combining diverse base-sized transformer, systematically analysing architectural complementarity, calibration, and aggregation strategies. Showed that optimized soft-voting ensembles match large-model performance on SQuAD 1.1 (94.4 F1) at significantly lower deployment cost, highlighting strengths in our experimental design.",
+        description: (
+          <>
+            Built and evaluated an ensemble QA system combining diverse base-sized transformer, systematically analysing architectural complementarity, calibration, and aggregation strategies. Showed that optimized soft-voting ensembles match large-model performance on SQuAD 1.1 (<strong>94.4 F1</strong>) at significantly lower deployment cost, highlighting strengths in our experimental design.
+          </>
+        ),
         tech: "Python, PyTorch, LLMs",
         year: 2025,
         url: "https://github.com/AprupKale/Extractive-QA",
@@ -23,8 +27,11 @@ const projects: Project[] = [
     },
     {
         title: "Multimodal Histopathology Classification with Fine-Tuned Vision-Language Models",
-        description:
-        "Designed and implemented a CLIP-based multimodal pipeline for multi-label histopathology diagnosis, selectively fine-tuning image and text encoders and training a fused MLP head on 44K image-report pairs from Quilt-1M. Conducted rigorous baseline comparisons, achieving 0.99 micro-AUC and 68% top-3 label accuracy, demonstrating gains from principled multimodal fusion.",
+        description: (
+          <>
+            Designed and implemented a CLIP-based multimodal pipeline for multi-label histopathology diagnosis, selectively fine-tuning image and text encoders and training a fused MLP head on <strong>44K image-report pairs</strong> from Quilt-1M. Conducted rigorous baseline comparisons, achieving <strong>0.99 micro-AUC</strong> and <strong>68% top-3 label accuracy</strong>, demonstrating gains from principled multimodal fusion.
+          </>
+        ),
         tech: "Python, PyTorch, CNNs, LLMs",
         year: 2024,
         url: "https://github.com/AprupKale/multimodal-classification",
@@ -40,7 +47,7 @@ const ProjectsSection = () => {
           Projects
         </h2>
         <p className="text-muted-foreground mb-8 max-w-2xl">
-          Selected projects showcasing code, experiments, and tools related to my and interests.
+            A selection of projects I have worked on, either independently or as part of a team.
         </p>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">

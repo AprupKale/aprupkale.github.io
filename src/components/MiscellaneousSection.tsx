@@ -17,6 +17,8 @@ const sections = [
     // description: "Honors and awards.",
     items: [
         { title: "REx Grant", issuer: "National University of Singapore", date: "2024" },
+        { title: "Dean's List, School of Computing, AY2025/26 Semester 1", issuer: "National University of Singapore", date: "2025" },
+        { title: "Certificate of Distinction in the Algorithms and Theory Focus Area", issuer: "National University of Singapore", date: "2025" },
       // { title: "", issuer: "", date: "", note: "", linkLabel: "", linkHref: "" },
     ],
   },
