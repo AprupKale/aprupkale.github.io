@@ -8,7 +8,7 @@ const HeroSection = () => {
           <div className="md:col-span-2 space-y-6">
             <div className="space-y-2">
               <p className="text-primary font-medium tracking-wide uppercase text-sm">
-                Undergraduate Researcher
+                Research Assistant
               </p>
               <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-semibold text-foreground leading-tight">
                 Aprup Kale
@@ -16,7 +16,7 @@ const HeroSection = () => {
             </div>
             
             <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-2xl">
-              Passionate about exploring theoretical computer science in general, with a keen interest in algorithmic game theory.
+              Passionate about exploring theoretical computer science in general, with a keen interest in quantum algorithms and algorithmic game theory.
             </p>
 
             <div className="flex flex-wrap gap-4 text-sm text-muted-foreground">

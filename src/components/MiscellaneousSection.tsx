@@ -17,8 +17,11 @@ const sections = [
     // description: "Honors and awards.",
     items: [
         { title: "REx Grant", issuer: "National University of Singapore", date: "2024" },
-        { title: "Dean's List, School of Computing, AY2025/26 Semester 1", issuer: "National University of Singapore", date: "2025" },
         { title: "Certificate of Distinction in the Algorithms and Theory Focus Area", issuer: "National University of Singapore", date: "2025" },
+        { title: "Dean's List, School of Computing, AY2025/26 Semester 1", issuer: "National University of Singapore", date: "2026" },
+        { title: "Dean's List, School of Computing, AY2025/26 Semester 2", issuer: "National University of Singapore", date: "2026" },
+        { title: "Certificate of Distinction in the Artificial Intelligence Focus Area", issuer: "National University of Singapore", date: "2026" },
+        { title: "IJCAI-2026 Travel Grant", issuer: "International Joint Conference on Artificial Intelligence", date: "2026" },
       // { title: "", issuer: "", date: "", note: "", linkLabel: "", linkHref: "" },
     ],
   },
@@ -27,6 +30,7 @@ const sections = [
     // description: "Conference and journal service.",
     items: [
         { role: "Program Committee", venue: "AAAI 2026", year: "2025" },
+        { role: "Program Committee", venue: "AAAI 2027", year: "2026" },
       // { role: "", venue: "", year: "", note: "", linkLabel: "", linkHref: "" },
     ],
   },

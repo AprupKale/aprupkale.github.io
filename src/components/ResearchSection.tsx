@@ -3,6 +3,12 @@ import { Badge } from "@/components/ui/badge";
 
 const projects = [
   {
+    title: "Quantum Property Testing",
+    description: "Exploring quantum algorithms for property testing of Quantum Hamiltonians.",
+    tags: ["Quantum Algorithms", "Property Testing"],  
+    status: "Active",
+  },
+  {
     title: "Asymptotic Fair Division",
     description: "Investigating algorithms and theoretical bounds for fair division problems in asymptotic settings, focusing on efficiency and fairness guarantees.",
     tags: ["Fair Division", "Asymptotic Analysis"],  
@@ -24,7 +30,7 @@ const ResearchSection = () => {
           Research
         </h2>
         <p className="text-muted-foreground mb-12 max-w-2xl">
-          My current research focus is in asymptotic fair division.
+          My current research focus is in quantum algorithms and fair division.
           I previously also worked on programming language implementation.
         </p>
 

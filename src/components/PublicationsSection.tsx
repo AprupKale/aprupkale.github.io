@@ -2,12 +2,20 @@ import { FileText, ExternalLink } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const publications = [
+  // {
+  //   title: "Fairly Dividing Non-identical Random Items: Just Sample or Match",
+  //   authors: "Aprup Kale, Rucha Kulkarni, Navya Garg",
+  //   venue: "Preprint",
+  //   type: "Preprint",
+  //   year: 2025,
+  //   url: "https://arxiv.org/abs/2512.17238",
+  // },
   {
     title: "Fairly Dividing Non-identical Random Items: Just Sample or Match",
-    authors: "Aprup Kale, Rucha Kulkarni, Navya Garg",
-    venue: "Preprint",
-    type: "Preprint",
-    year: 2025,
+    authors: "Aprup Kale, Navya Garg, Rucha Kulkarni",
+    venue: "IJCAI 2026",
+    type: "Conference",
+    year: 2026,
     url: "https://arxiv.org/abs/2512.17238",
   },
 ];

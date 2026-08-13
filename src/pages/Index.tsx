@@ -17,10 +17,10 @@ const Index = () => {
         <title>Aprup Kale | NUS</title>
         <meta 
           name="description" 
-          content="Aprup Kale is an undergraduate researcher at the National University of Singapore specializing in algorithms and theory, and ML and AI." 
+          content="Aprup Kale is a Research Assistant at the National University of Singapore, working on algorithms and theory, specifically in Quantum Property Testing and Fair Division." 
         />
-        <meta name="keywords" content="Aprup Kale, Algorithmic Game Theory, Fair Division, Theoretical Computer Science, Explainable AI, Fair AI" />
-        <link rel="canonical" href="https://aprupkale.com" />
+        <meta name="keywords" content="Aprup Kale, Quantum Property Testing, Quantum Algorithms, Algorithmic Game Theory, Fair Division, Theoretical Computer Science, Explainable AI, Fair AI" />
+        <link rel="canonical" href="https://aprupkale.github.io/" />
       </Helmet>
       
       <div className="min-h-screen bg-background">
