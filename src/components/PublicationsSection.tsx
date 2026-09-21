@@ -16,7 +16,7 @@ const publications = [
     venue: "IJCAI 2026",
     type: "Conference",
     year: 2026,
-    url: "https://arxiv.org/abs/2512.17238",
+    url: "https://www.ijcai.org/proceedings/2026/383",
   },
 ];
 
@@ -69,9 +69,8 @@ const PublicationsSection = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <Button variant="ghost" size="sm" className="shrink-0 gap-2">
+                  <Button variant="ghost" size="lg" className="shrink-0 gap-2">
                     <FileText className="h-4 w-4" />
-                    arXiv
                   </Button>
                 </a>
 
