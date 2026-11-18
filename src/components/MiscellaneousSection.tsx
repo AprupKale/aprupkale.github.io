@@ -1,6 +1,6 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { link } from "fs";
+// import { link } from "fs";
 
 const sections = [
   {
@@ -30,7 +30,8 @@ const sections = [
     title: "Reviewing Duties",
     // description: "Conference and journal service.",
     items: [
-        { role: "Sub-reviewer", venue: "SOSA 2027", year: "2027"}, 
+        { role: "Sub-reviewer", venue: "QIP 2027", year: "2026"},
+        { role: "Sub-reviewer", venue: "SOSA 2027", year: "2026"}, 
         { role: "Reviewer", venue: "AAAI 2027", year: "2026" },
         { role: "Reviewer", venue: "AAAI 2026", year: "2025" }
       // { role: "", venue: "", year: "", note: "", linkLabel: "", linkHref: "" },

@@ -16,7 +16,8 @@ const HeroSection = () => {
             </div>
             
             <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-2xl">
-              Passionate about exploring theoretical computer science in general, with a keen interest in quantum algorithms and algorithmic game theory.
+              {/* Passionate about exploring theoretical computer science, with a keen interest in quantum algorithms and algorithmic game theory. */}
+              Passionate about exploring theoretical computer science, with a keen interest in quantum algorithms.
             </p>
 
             <div className="flex flex-wrap gap-4 text-sm text-muted-foreground">

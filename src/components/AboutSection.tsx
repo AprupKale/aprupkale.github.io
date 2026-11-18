@@ -13,12 +13,12 @@ const AboutSection = () => {
           <div className="md:col-span-2 space-y-6">
             <p className="text-muted-foreground leading-relaxed">
               I am a Research Assistant in the Department of Computer Science at National University of Singapore. 
-              My research currently focuses on quantum property testing and fair division.
-              I am broadly interested in all aspects of theoretical Computer Science, as well as explainable, fair, and safe AI.
+              My research currently focuses on quantum property testing.
+              I am interested in all aspects of quantum computing and quantum algorithms, and theoretical computer science at large.
             </p>
             <p className="text-muted-foreground leading-relaxed">
               {/* I am currently on the lookout for full-time positions starting May 2026. */}
-              I will also soon be applying for graduate school to pursue a PhD in Computer Science.
+              I am currently applying to PhD programs in Computer Science. 
             </p>
 
             <div className="flex flex-wrap gap-4 pt-4">
@@ -60,9 +60,9 @@ const AboutSection = () => {
               <h3 className="font-semibold text-foreground mb-3">Research Interests</h3>
               <ul className="space-y-2 text-muted-foreground text-sm">
                 <li>• Quantum Algorithms</li>
+                <li>• Quantum Property Testing</li>
                 <li>• Fair Division</li>
                 <li>• Algorithmic Game Theory</li>
-                <li>• Explainable, Fair and Safe AI</li>
               </ul>
             </div>
 

@@ -4,19 +4,19 @@ import { Badge } from "@/components/ui/badge";
 const projects = [
   {
     title: "Quantum Property Testing",
-    description: "Exploring quantum algorithms for property testing of Quantum Hamiltonians.",
+    description: "Developing quantum algorithms for Hamiltonian property testing.",
     tags: ["Quantum Algorithms", "Property Testing"],  
     status: "Active",
   },
   {
     title: "Asymptotic Fair Division",
-    description: "Investigating algorithms and theoretical bounds for fair division problems in asymptotic settings, focusing on efficiency and fairness guarantees.",
+    description: "Investigated the existence of fair and efficient allocations of non-identical items in the asymptotic setting.",
     tags: ["Fair Division", "Asymptotic Analysis"],  
-    status: "Active",
+    status: "Inactive",
   },
   {
     title: "Java in Source Academy",
-    description: "Developing and maintaining the Java programming language support in the Source Academy, an educational platform for teaching programming concepts.",
+    description: "Worked on implementing a virtual machine and compiler for running Java programs in Source Academy",
     tags: ["PL Implementation", "Educational Tools"],
     status: "Inactive",
   },
@@ -30,8 +30,8 @@ const ResearchSection = () => {
           Research
         </h2>
         <p className="text-muted-foreground mb-12 max-w-2xl">
-          My current research focus is in quantum algorithms and fair division.
-          I previously also worked on programming language implementation.
+          My current research focus is in quantum algorithms.
+          I previously also worked on fair division and programming language implementation.
         </p>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
